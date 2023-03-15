@@ -32,17 +32,17 @@ try {
          )
     );
     $mail->isSMTP();                                            
-    $mail->Host = 'smtp-mail.outlook.com';
+    $mail->Host = 'smtp.gmail.com';//smtp-mail.outlook.com
     $mail->SMTPAuth   = true;                                 
-    $mail->Username   = 'vhtmad@outlook.com';
-    $mail->Password   = "1234@Aws";  
+    $mail->Username   = 'vhtmad@gmail.com';
+    $mail->Password   = "1234@Vht";  
     $mail->SMTPSecure = "tls";                                      
     $mail->Port = 587;    
     $mail->addReplyTo($email, $name);                                       
 
     //Recipients
-    $mail->setFrom('vhtmad@outlook.com', $name);
-    $mail->addAddress('vhtmad@outlook.com');
+    $mail->setFrom('vhtmad@gmail.com', $name);
+    $mail->addAddress('vhtmad@gmail.com');
 
     //Content
     $mail->isHTML(true);
