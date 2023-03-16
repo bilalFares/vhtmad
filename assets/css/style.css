@@ -1506,3 +1506,17 @@ section {
   max-width: 100%;
   height: auto;
 }
+
+@media only screen and (max-width: 768px){
+  .logo a {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 450px){
+  .logo a {
+    font-size: 10px !important;
+  }
+}
+.logo a{
+  transition: .4s !important;
+}
