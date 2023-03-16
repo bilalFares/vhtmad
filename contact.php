@@ -32,10 +32,10 @@ try {
          )
     );
     $mail->isSMTP();                                            
-    $mail->Host = 'smtp.gmail.com';//smtp-mail.outlook.com
+    $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth   = true;                                 
     $mail->Username   = 'vhtmad@gmail.com';
-    $mail->Password   = "1234@Vht";  
+    $mail->Password   = "sdyxeogyiekqtnyx";//"1234@Vht";
     $mail->SMTPSecure = "tls";                                      
     $mail->Port = 587;    
     $mail->addReplyTo($email, $name);                                       
